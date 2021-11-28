@@ -3,7 +3,10 @@ const Loading = ({ show }) => {
   //show may be undefined so used ternary ops
   return (
     <Backdrop
-      sx={{ color: "#fff", zIndex: (theme) => theme.zIndex.drawer + 1 }}
+      sx={{
+        backgroundColor: "#fff",
+        zIndex: (theme) => theme.zIndex.drawer + 1,
+      }}
       open={show ? true : false}
     >
       <div className="lds-heart">
