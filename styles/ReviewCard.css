@@ -1,0 +1,33 @@
+.revMainDiv {
+  width: 200px;
+  box-shadow: 1px 4px 8px rgba(15, 15, 15, 0.76);
+  margin: 0 3px;
+}
+.revMainDiv:hover {
+  transform: translateY(-1vmax);
+  transition: all 0.5s;
+}
+.revImgDiv {
+  width: 50px;
+  height: 55px;
+  margin: 0 auto;
+}
+.revImg {
+  width: 50px;
+  padding: 5px 0 0 0;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.revName {
+  font-size: 12px;
+  text-align: center;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+.revRating {
+  text-align: center;
+}
+.revComment {
+  text-align: center;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 13px;
+}

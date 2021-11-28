@@ -1,0 +1,37 @@
+.pAddDecormainDiv {
+    display: flex;
+    justify-content: center;
+  }
+  .pAddDecorformControl {
+    width: 300px;
+  }
+  .pAddDecorWidth {
+    width: 300px;
+  }
+  .pAddDecorinput {
+    margin: 0px 0px 20px 0px;
+  }
+  .pAddDecorDivPreviews {
+    max-width: 210px;
+    margin: 0 auto;
+  }
+  .pAddDecorimgPreview {
+    max-width: 70px;
+    object-fit: cover;
+    border: 1px solid purple;
+  }
+  .pAddDecorTextArea::placeholder {
+    color: darkgray;
+    padding: 0 0 0 2px;
+    font-size: 15px;
+  }
+  .foodItmUnitTipDiv {
+    width: 300px;
+  }
+  .foodItmUnitTip {
+    font-family: "Poppins", sans-serif;
+  }
+  .foodItmUnitEx {
+    font-family: "Poppins", sans-serif;
+  }
+  

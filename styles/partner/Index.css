@@ -1,0 +1,21 @@
+.pIndexSpacing-1 {
+  height: 6vh;
+}
+.pIndexMainDiv {
+  background-color: rgba(185, 63, 185, 0.712);
+  color: #fff;
+}
+.pIndexGridVerif {
+  padding: 10px;
+  background-color: #fff;
+  color: #fff;
+  margin: 0 auto 1vh auto;
+  max-width: 185px;
+}
+.pIndexProfile {
+  width: 40vh;
+  object-fit: cover;
+}
+.pIndexName {
+  font-family: "Ubuntu", sans-serif;
+}

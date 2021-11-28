@@ -1,0 +1,15 @@
+.cSignuPmainDiv {
+  display: flex;
+  justify-content: center;
+}
+.cSignuPformControl {
+  width: 300px;
+}
+.cSignuPinput {
+  margin: 0px 0px 20px 0px;
+}
+.cSignuPimgPreview{
+  max-width: 70px;
+  object-fit: cover;
+  border: 1px solid purple;
+}

@@ -1,0 +1,107 @@
+/* Desktop No retina */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  .isDecorImgMain:hover {
+    animation: scaleUp 1s forwards linear;
+    cursor: pointer;
+  }
+}
+.isDecorImgMain {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+}
+@keyframes scaleUp {
+  from {
+  }
+  to {
+    height: 80vh;
+    width: 100%;
+  }
+}
+.isDecorImagesList {
+  display: flex;
+  justify-content: space-evenly;
+}
+.isDecorImagesListImg {
+  object-fit: cover;
+  width: 93px;
+  height: 93px;
+}
+.isDecorImgActive {
+  border: 5px solid tomato;
+}
+.isDecorDetailsDiv {
+  max-width: 300px;
+}
+.isDecorTitle {
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+.isDecorCost {
+  text-align: center;
+  margin: 15px 0;
+}
+.isDecorCostValue {
+  font-size: 18px;
+}
+.isDecorRating {
+  text-align: center;
+  margin: 15px 0;
+}
+.isDecornumReviews-1 {
+  font-size: 12px;
+}
+.isDecorAddCartDiv {
+  text-align: center;
+}
+.isDecorUnitsPara {
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.isDecorUnitsDiv {
+  max-width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.isDecorUnitChip {
+  color: rgb(247, 7, 147);
+  border: 2px solid rgb(247, 7, 147);
+  background-color: #fff;
+}
+.isDecorUcActive {
+  color: #fff !important;
+  background-color: rgb(247, 7, 147) !important;
+  border: none !important;
+}
+.isDecorDesc {
+  text-align: center;
+  color: rgb(31, 15, 15);
+  font-size: 15px;
+  font-family: "Lora", serif;
+}
+.isDecorAlert {
+  border: 3px solid red;
+}
+
+.isDecorDelivCost {
+  width: 310px;
+  margin: 50px auto 0 auto;
+  text-align: center;
+}
+.isDecornoreview {
+  margin: 0 auto;
+}
+.isDecorReviewsDiv {
+  padding: 18px 0 10px 0;
+  display: flex;
+  overflow: auto;
+  margin: 40px 0 0 0;
+}
+.isDecorHeight-1 {
+  height: 5vh;
+}

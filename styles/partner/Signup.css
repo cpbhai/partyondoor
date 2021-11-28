@@ -1,0 +1,13 @@
+.pSignuPmainDiv {
+  display: flex;
+  justify-content: center;
+}
+.pSignuPformControl {
+  width: 300px;
+}
+.pSignuPWidth{
+  width: 300px;
+}
+.pSignuPinput {
+  margin: 0px 0px 20px 0px;
+}

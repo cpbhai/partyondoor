@@ -1,0 +1,90 @@
+.pDashAnalytics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.pDashStat-1:hover {
+  transform: rotate(10deg);
+  transition: all 0.5s;
+}
+.pDashStat-2:hover {
+  transform: rotate(-10deg);
+  transition: all 0.5s;
+}
+.pDashStat-3:hover {
+  transform: rotate(-10deg);
+  transition: all 0.5s;
+}
+.pDashStat-4:hover {
+  transform: rotate(10deg);
+  transition: all 0.5s;
+}
+.pDashAnalytics > .D-1 {
+  background-color: tomato;
+  color: white;
+  width: 150px;
+  margin: 5px 0;
+  height: 130px;
+  border-radius: 10px;
+  text-align: center;
+}
+.pDashAnalytics > .D-1 > h1 {
+  padding: 5px 0 0 0;
+}
+.pDashAnalytics > .D-1 > p {
+  font-family: roboto;
+}
+.pDashAnalytics > .D-2 {
+  background-color: rgb(47, 184, 47);
+  color: white;
+  width: 150px;
+  margin: 5px 0;
+  height: 130px;
+  border-radius: 10px;
+  text-align: center;
+}
+.pDashAnalytics > .D-2 > h1 {
+  padding: 5px 0 0 0;
+}
+.pDashAnalytics > .D-2 > p {
+  font-family: roboto;
+}
+.pDashAnalytics > .D-3 {
+  background-color: rgb(238, 32, 32);
+  color: white;
+  width: 150px;
+  margin: 5px 0;
+  height: 130px;
+  border-radius: 10px;
+  text-align: center;
+}
+.pDashAnalytics > .D-3 > h1 {
+  padding: 5px 0 0 0;
+}
+.pDashAnalytics > .D-3 > p {
+  font-family: roboto;
+}
+.pDashAnalytics > .D-4 {
+  background-color: orange;
+  color: white;
+  width: 150px;
+  margin: 5px 0;
+  height: 130px;
+  border-radius: 10px;
+  text-align: center;
+}
+.pDashAnalytics > .D-4 > h1 {
+  padding: 5px 0 0 0;
+}
+.pDashAnalytics > .D-4 > p {
+  font-family: roboto;
+}
+.pDashnavigate {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 20px 0 120px 0;
+}
+.pDashnavigate > a {
+  margin-top: 10px;
+}

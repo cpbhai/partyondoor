@@ -1,0 +1,63 @@
+/* ----------- Non-Retina Screens ----------- */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  .cartItmDiv > .cartImgDiv {
+    width: 120px !important;
+    margin: 30px 0;
+    height: 150px;
+  }
+  .cartItmDiv > .cartImgDiv > img {
+    width: 120px !important;
+    height: 150px;
+  }
+}
+.cartItmsDiv {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.cartItmDiv {
+  box-shadow: 1px 4px 8px rgba(15, 15, 15, 0.76);
+  text-align: center;
+  margin: 0px 8px 15px 8px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.cartItmDiv > .cartImgDiv {
+  width: 100px;
+  margin: 25px 0 0 25px;
+  height: 150px;
+}
+.cartItmDiv > .cartImgDiv > img {
+  width: 100px;
+  height: 150px;
+  object-fit: contain;
+}
+.cartItmDiv > .cartItmDetailNOps {
+  max-width: 230px;
+  padding: 0 5px;
+}
+.cartItmDetailNOps > div {
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+}
+.cartSpace-1 {
+  height: 10vh;
+}
+.cartEmptyDiv {
+  display: flex;
+}
+.cartEmptyImg {
+  width: 150px;
+  margin: 5vh auto 0 auto;
+  object-fit: cover;
+}
+.cartEmptyHead{
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+.cartEmptyPara{
+  text-align: center;
+  margin: 0 0 20vh 0;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 20px;
+}

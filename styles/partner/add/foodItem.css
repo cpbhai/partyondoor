@@ -1,0 +1,36 @@
+.pCreateItmmainDiv {
+  display: flex;
+  justify-content: center;
+}
+.pCreateItmformControl {
+  width: 300px;
+}
+.pCreateItmWidth {
+  width: 300px;
+}
+.pCreateItminput {
+  margin: 0px 0px 20px 0px;
+}
+.pCreateItmDivPreviews {
+  max-width: 210px;
+  margin: 0 auto;
+}
+.pCreateItmimgPreview {
+  max-width: 70px;
+  object-fit: cover;
+  border: 1px solid purple;
+}
+.pCreateItmTextArea::placeholder {
+  color: darkgray;
+  padding: 0 0 0 2px;
+  font-size: 15px;
+}
+.foodItmUnitTipDiv {
+  width: 300px;
+}
+.foodItmUnitTip {
+  font-family: "Poppins", sans-serif;
+}
+.foodItmUnitEx {
+  font-family: "Poppins", sans-serif;
+}

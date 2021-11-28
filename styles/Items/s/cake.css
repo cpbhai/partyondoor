@@ -1,0 +1,107 @@
+/* Desktop No retina */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  .isCakeImgMain:hover {
+    animation: scaleUp 1s forwards linear;
+    cursor: pointer;
+  }
+}
+.isCakeImgMain {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+}
+@keyframes scaleUp {
+  from {
+  }
+  to {
+    height: 80vh;
+    width: 100%;
+  }
+}
+.isCakeImagesList {
+  display: flex;
+  justify-content: space-evenly;
+}
+.isCakeImagesListImg {
+  object-fit: cover;
+  width: 93px;
+  height: 93px;
+}
+.isCakeImgActive {
+  border: 5px solid tomato;
+}
+.isCakeDetailsDiv {
+  max-width: 300px;
+}
+.isCakeTitle {
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+.isCakeCost {
+  text-align: center;
+  margin: 15px 0;
+}
+.isCakeCostValue {
+  font-size: 18px;
+}
+.isCakeRating {
+  text-align: center;
+  margin: 15px 0;
+}
+.isCakenumReviews-1 {
+  font-size: 12px;
+}
+.isCakeAddCartDiv {
+  text-align: center;
+}
+.isCakeUnitsPara {
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.isCakeUnitsDiv {
+  max-width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.isCakeUnitChip {
+  color: rgb(247, 7, 147);
+  border: 2px solid rgb(247, 7, 147);
+  background-color: #fff;
+}
+.isCakeUcActive {
+  color: #fff !important;
+  background-color: rgb(247, 7, 147) !important;
+  border: none !important;
+}
+.isCakeDesc {
+  text-align: center;
+  color: rgb(31, 15, 15);
+  font-size: 15px;
+  font-family: "Lora", serif;
+}
+.isCakeAlert {
+  border: 3px solid red;
+}
+
+.isCakeDelivCost {
+  width: 310px;
+  margin: 50px auto 0 auto;
+  text-align: center;
+}
+.isCakenoreview {
+  margin: 0 auto;
+}
+.isCakeReviewsDiv {
+  padding: 18px 0 10px 0;
+  display: flex;
+  overflow: auto;
+  margin: 40px 0 0 0;
+}
+.isCakeHeight-1 {
+  height: 5vh;
+}

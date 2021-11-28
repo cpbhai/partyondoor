@@ -1,0 +1,11 @@
+/* Desktop No retina */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+}
+.navLogoLink{
+  width: 150px;
+}
+.navLogo-1 {
+  height: 25px;
+  width: 150px;
+  object-fit: contain;
+}

@@ -1,0 +1,21 @@
+.cIndexSpacing-1 {
+  height: 6vh;
+}
+.cIndexMainDiv {
+  background-color: rgba(185, 63, 185, 0.712);
+  color: #fff;
+}
+.cIndexGridVerif {
+  padding: 10px;
+  background-color: #fff;
+  color: #fff;
+  margin: 0 auto 1vh auto;
+  max-width: 185px;
+}
+.cIndexProfile {
+  width: 40vh;
+  object-fit: cover;
+}
+.cIndexName {
+  font-family: "Ubuntu", sans-serif;
+}

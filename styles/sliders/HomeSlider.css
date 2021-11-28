@@ -1,0 +1,55 @@
+/* Ipad Portrait and Landscape 25vh === 1600 X 522 */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .homedeskSlide {
+    display: none !important;
+  }
+  .homephoneSlide {
+    display: none !important;
+  }
+  .hometabSlide {
+    background-size: cover !important;
+    height: 25vh !important;
+  }
+  .homeSlideMainDiv {
+    margin: 8px 5px 0 !important;
+  }
+}
+/* Desktop No retina 70vh === 1600 X 522*/
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  .homephoneSlide {
+    display: none !important;
+  }
+  .hometabSlide {
+    display: none !important;
+  }
+}
+/* Phone Portrait and Landscape  70vh === 344 X 484*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  .homedeskSlide {
+    display: none !important;
+  }
+  .hometabSlide {
+    display: none !important;
+  }
+  .homeSlideMainDiv {
+    margin: 2px 5px 0 !important;
+  }
+}
+.homeSlideMainDiv {
+  margin: 10px 5px 0;
+}
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 70vh;
+}
+
+.each-slide span {
+  padding: 20px;
+  color: #fff;
+  font-size: 20px;
+  border: 2px solid #fff;
+  text-align: center;
+}

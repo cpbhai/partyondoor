@@ -1,0 +1,61 @@
+/* Ipad Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+}
+/* Desktop No retina */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  .wedecorsCustBtn {
+    margin: 5px 0 0 0px !important;
+  }
+  .wedecorsCustBar {
+    margin-top: 1px !important;
+  }
+  .wedecorsGridAbove-1 {
+    height: 50px !important;
+  }
+}
+.wedecorsPleaseWait{
+  margin: 25vh auto;
+}
+.wedecorsCustBtn {
+  position: fixed;
+  margin-top: -3px;
+  z-index: 2;
+  cursor: pointer;
+}
+.wedecorsShowCustBar {
+  display: block !important;
+}
+.wedecorsHideCustBar {
+  display: none !important;
+}
+.wedecorsCustBar {
+  margin-top: -3px;
+  background-color: rgb(255, 232, 232);
+  height: fit-content;
+  padding: 0 0 10px 0;
+  position: fixed;
+  z-index: 1;
+}
+.wedecorsSliderDiv {
+  width: 35vh;
+  margin: 0 auto;
+  padding: 65px 0;
+  height: 50px;
+}
+.wedecorsSubCatsDiv {
+  margin: 45px 0 0 0;
+  padding: 0 5px;
+}
+.wedecorsSearchBDiv {
+  margin: 10px auto 0 auto;
+  width: 317px;
+}
+.itemsNoMatch {
+  margin: 25vh auto;
+}
+.wedecorsGridAbove-1 {
+  height: 40px;
+}
+.wedecorsGridList {
+  background-color: red;
+}

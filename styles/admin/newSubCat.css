@@ -1,0 +1,15 @@
+.aNewSubCatmainDiv {
+  display: flex;
+  justify-content: center;
+}
+.aNewSubCatformControl {
+  width: 300px;
+}
+.aNewSubCatinput {
+  margin: 0px 0px 20px 0px;
+}
+.aNewSubCatimgPreview {
+  max-width: 70px;
+  object-fit: cover;
+  border: 1px solid purple;
+}

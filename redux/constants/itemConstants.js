@@ -1,0 +1,9 @@
+export const ITEM_REQUEST = "ITEM_REQUEST";
+export const ITEM_SUCCESS = "ITEM_SUCCESS";
+export const ITEM_FAIL = "ITEM_FAIL";
+
+export const PARTCU_ITEM_REQUEST = "PARTCU_ITEM_REQUEST";
+export const PARTCU_ITEM_SUCCESS = "PARTCU_ITEM_SUCCESS";
+export const PARTCU_ITEM_FAIL = "PARTCU_ITEM_FAIL";
+
+export const CLEAR_ERRORS = "CLEAR_ERRORS";

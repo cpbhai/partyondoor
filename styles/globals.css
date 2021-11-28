@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Birthstone&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent; /*Prevents Blue highlight when clicked on link*/
+}
+.black {
+  color: "#000";
+}
+.red {
+  color: "red";
+}
+.white {
+  color: #fff;
+}
+.green {
+  color: green;
+}
+.tomato {
+  color: tomato;
+}
+.dFlexWrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.justfyeven {
+  justify-content: space-evenly;
+}
+.dFlex {
+  display: flex;
+}
+.justfycent {
+  justify-content: center;
+}
+.justfystart {
+  justify-content: start;
+}
+.mt-2 {
+  margin-top: 20px;
+}
+.mt-3 {
+  margin-top: 30px;
+}
+.mt-1 {
+  margin-top: 10px;
+}
+.mt-5 {
+  margin-top: 50px;
+}
+.mb-5 {
+  margin-bottom: 50px;
+}
+.mt-7 {
+  margin-top: 70px;
+}
+.mxauto {
+  margin: 0 auto;
+}
+.px-10 {
+  padding: 0 10px 0 10px;
+}
+.textCenter {
+  text-align: center;
+}
+.fontwb {
+  font-weight: bold;
+}
+input[type="file"] {
+  display: none;
+}
+
+@import url("./partner/Signup.css");
+@import url("./partner/Login.css");
+@import url("./partner/Index.css");
+@import url("./partner/Dashboard.css");
+@import url("./partner/add/foodItem.css");
+@import url("./partner/add/decoration.css");
+@import url("./admin/newCat.css");
+@import url("./admin/newSubCat.css");
+@import url("./client/Signup.css");
+@import url("./client/Login.css");
+@import url("./client/Index.css");
+@import url("./Items/cakes.css");
+@import url("./Items/weddingdecorators.css");
+@import url("./Items/s/cake.css");
+@import url("./Items/s/decorator.css");
+@import url("./productCard.css");
+@import url("./ReviewCard.css");
+@import url("./sliders/HomeSlider.css");
+@import url("./cart.css");
+@import url("./home.css");
+@import url("./footer.css");
+@import url("./about.css");
+@import url("./nav.css");
+@import url("./drawer.css");

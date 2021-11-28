@@ -1,0 +1,63 @@
+/* Ipad Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+}
+/* Desktop No retina */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  .indWhyUsDiv {
+    margin: 40px 0 !important;
+  }
+}
+.indCatsDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.indCatsDiv > div {
+  width: 150px;
+  padding: 10px 0;
+  margin: 10px 0;
+  box-shadow: 1px 4px 8px rgba(15, 15, 15, 0.76);
+  cursor: pointer;
+}
+.indCatsDiv > div:hover {
+  transform: translateY(-1vmax);
+  transition: all 0.5s;
+}
+.indCatsDiv > div > img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  margin: 0 5px;
+}
+.indCatsDiv > div > p {
+  text-align: center;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 15px;
+  margin: 0 10px;
+}
+.indWhyUsDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.indWhyUsDiv-2 {
+  border: 5px solid rgb(247, 7, 147);
+  border-radius: 10px;
+  max-width: 150px;
+  margin: 10px 1px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.indWhyUsImg {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 30%;
+  margin: 1px;
+}
+.indWhyUsDiv-2 > p {
+  text-align: center;
+  padding: 1px;
+  font-family: "Outfit", sans-serif;
+}
