@@ -100,6 +100,7 @@ input[type="file"] {
 @import url("./partner/Dashboard.css");
 @import url("./partner/add/foodItem.css");
 @import url("./partner/add/decoration.css");
+@import url('./loading.css');
 @import url("./admin/newCat.css");
 @import url("./admin/newSubCat.css");
 @import url("./client/Signup.css");
