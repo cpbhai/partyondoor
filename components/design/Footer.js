@@ -56,20 +56,20 @@ const Footer = () => {
             New Delhi, India
           </Grid>
           <br></br>
-          <Link href="tel:+917505028002">
+          <Link href="tel:+918077015752">
             <a>
               <Grid container alignItems="center" gap={0.3}>
                 <PhoneIcon />
-                +91-7505028002
+                +91-8077015752
               </Grid>
             </a>
           </Link>
           <br></br>
-          <Link href="tel:+917668462359">
+          <Link href="tel:+916398188216">
             <a>
               <Grid container alignItems="center" gap={0.3}>
                 <PhoneIcon />
-                +91-7668462359
+                +91-6398188216
               </Grid>
             </a>
           </Link>

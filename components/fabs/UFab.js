@@ -25,14 +25,14 @@ const UFab = () => {
   };
   return (
     <Fragment>
-      <Link href="tel:+917505028002">
+      <Link href="tel:+918077015752">
         <a target="_blank">
           <Fab color="primary" style={callStyle}>
             <CallIcon />
           </Fab>
         </a>
       </Link>
-      <Link href="http://wa.me/+917505028002?text=Hey%20Partyondoor,%20I%20want%20to%20ask:%0A">
+      <Link href="http://wa.me/+918077015752?text=Hey%20Partyondoor,%20I%20want%20to%20ask:%0A">
         <a target="_blank">
           <Fab style={whatsappStyle}>
             <WhatsAppIcon />

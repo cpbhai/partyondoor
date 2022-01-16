@@ -30,7 +30,7 @@ const AboutUs = () => {
           easily get the list of all suppliers near them.
         </h5>
         <h3 className="mt-5 fontwb">Founder:</h3>
-        <h5 className="mt-1">Mr. Arpit Jadon</h5>
+        <h5 className="mt-1">Just a Project</h5>
         <div className="aboutHM2"></div>
       </div>
     </Fragment>
