@@ -85,7 +85,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="textCenter">
-        <p>www.partyondoor.com</p>
+        <p>https://partyondoor.vercel.app</p>
         <p>&copy; 2021 PartyOnDoor</p>
       </div>
     </Fragment>
