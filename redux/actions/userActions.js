@@ -63,7 +63,7 @@ export const logOut = () => async (dispatch) => {
         });
       if (data.type === "client")
         dispatch({
-          type: CLIENT_DETAILS,
+          type: NO_CLIENT,
         });
     });
 };

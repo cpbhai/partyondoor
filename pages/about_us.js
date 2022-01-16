@@ -27,11 +27,10 @@ const AboutUs = () => {
         <h5 className="aboutwhyFounded">
           So, with this vision and mission to helping the people and the
           businesses.<br></br>We founded PartyOnDoor, a platform where user can
-          easily get the list of all beautician professionals near them.
+          easily get the list of all suppliers near them.
         </h5>
         <h3 className="mt-5 fontwb">Founder:</h3>
-        <h5 className="mt-1">Ms. Kajol Singh</h5>
-        {/*<h5 className="mt-3">Mr. Harshvardhan Singh</h5>*/}
+        <h5 className="mt-1">Mr. Arpit Jadon</h5>
         <div className="aboutHM2"></div>
       </div>
     </Fragment>

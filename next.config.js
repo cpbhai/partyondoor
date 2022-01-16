@@ -1,6 +1,6 @@
 module.exports = {
   env: {
-    baseUrl: "https://www.partyondoor.com",
+    baseUrl: "https://www.partyondoor.vercel.app",
     MONGODB_URL:
       "mongodb+srv://harsh:thakur@cluster0.std2z.mongodb.net/partyondoor1?retryWrites=true&w=majority",
     ACCESS_TOKEN_SECRET:
